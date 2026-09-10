@@ -119,4 +119,6 @@ Check no‑fly zones/aerodromes before each flight; RC liability insurance recom
 I already hold an AlphaTango operator licence, so the registration and regulatory side is prepared.
 
 Note: Nothing here is final. All values and choices may change at any time as further research is carried out and as the 3D design and prototyping progress.
+first prototype is a piece of shit
+![Image 1](images/img-1.png)
 **Time Spent: 1.5 Hours**
