@@ -121,7 +121,7 @@ I already hold an AlphaTango operator licence, so the registration and regulator
 Note: Nothing here is final. All values and choices may change at any time as further research is carried out and as the 3D design and prototyping progress.
 first prototype is a piece of shit
 ![Image 1](images/img_1.png)
-**Time Spent: 1.5 Hours**
+**Total time spent: 1.5 hours**
 
 # Day 2: motorisation et aile
 
@@ -170,4 +170,4 @@ demountable and repairable;
 compatible with 3D‑printed construction reinforced with carbon.
 The battery will be mounted on an adjustable rail at the front, because the rear motor and long tail
 tend to move the CG backwards.
-**Time Spent: 2 Hours**
+**Total time spent: 2 hours**
