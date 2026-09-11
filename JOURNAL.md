@@ -122,3 +122,52 @@ Note: Nothing here is final. All values and choices may change at any time as fu
 first prototype is a piece of shit
 ![Image 1](images/img_1.png)
 **Time Spent: 1.5 Hours**
+
+# Day 2: motorisation et aile
+
+Wing
+The drone will have a high (or slightly mid‑high) wing, straight and moderately tapered.
+Wingspan: 1 800 mm.
+Build: two removable half‑wings of 900 mm each.
+Root chord: about 230 mm.
+Tip chord: about 180 mm.
+Estimated wing area: 37–40 dm² (gives roughly 45–60 g/dm² for 1.8–2.2 kg).
+Airfoil: NACA 4412.
+![Image 2](images/img_naca.png)
+![Image 1](images/img_statnaca.png)
+Sweep: low, between 0–5°.
+Total dihedral: 4–5°.
+Positive washout at the tips: about 1–2°.
+Ailerons on the outer parts of the wings.
+
+Main spars: carbon tubes 10–12 mm.
+Anti‑torsion spar: carbon 4–6 mm.
+Initial CG: around 27–28% of the mean chord.
+This geometry was chosen to get a stable plane, easy to build and suited for slow to medium speed flight. A straight, slightly tapered wing is also more forgiving than a highly swept or delta wing.
+Motor and propulsion
+The drone uses a rear electric pusher setup.
+Recommended configuration:
+Brushless outrunner motor: 4250, around 800 KV.
+![Image 1](images/img_moteur4250.png)
+Battery: LiPo 4S, 14.8 V.
+![Image 1](images/img_battery5200.png)
+Capacity: 4 000–5 000 mAh.
+Discharge rate: at least 30C, ideally 40C.
+Propeller: 12×5 pusher for first tests, possibly 12×6 pusher later.
+ESC: 60 A, with BEC ≥ 5 A or a separate UBEC.
+Target power: about 400–600 W depending on final mass.
+Desired static thrust: around 1.2–1.6 kg.
+
+The 4250 motor was preferred over a 3542 to keep a power margin if the 3D‑printed structure ends up heavier than expected. The final propeller choice will be confirmed with a wattmeter to check current and motor/ESC temperature.
+Why these choices
+This wing + motor combo aims for a final mass between 1.8 and 2.2 kg, with possible operation up to about 2.5 kg after checks.
+The drone should then be:
+stable;
+able to fly slowly;
+powerful enought for safe takeoff;
+suited for powered glider flight;
+demountable and repairable;
+compatible with 3D‑printed construction reinforced with carbon.
+The battery will be mounted on an adjustable rail at the front, because the rear motor and long tail
+tend to move the CG backwards.
+**Time Spent: 2 Hours**
