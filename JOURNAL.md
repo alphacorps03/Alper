@@ -171,3 +171,17 @@ compatible with 3D‑printed construction reinforced with carbon.
 The battery will be mounted on an adjustable rail at the front, because the rear motor and long tail
 tend to move the CG backwards.
 **Total time spent: 2 hours**
+
+# second CAD session
+
+I spent about 1 hour and 45 minutes working on the second CAD model of my drone. I started by creating the main shape of the fuselage and positioning the wings on it.
+![Image 1](images/img_caodrone2.png)
+
+For this first version, I focused mainly on the general proportions rather than small details. I wanted to check the position of the wing, the shape of the fuselage and the overall appearance of the aircraft from above.
+
+The wing is slightly tapered and placed across the middle of the fuselage. I also started thinking about the future propulsion system and the space needed inside the fuselage for the battery and electronics. The model is still very basic, but it gives me a first idea of the final shape.
+
+This first CAD session helped me see that some dimensions will probably need to be adjusted later. I will have to check the wing area, the centre of gravity, the available space for the components and the way the different 3D‑printed parts will be assembled.
+
+For now, this is only a first draft. The design will change as I continue the CAD work and learn more about the structure, aerodynamics and printing constraints.
+**Total time spent: 1.75 hours**
