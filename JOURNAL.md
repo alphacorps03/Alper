@@ -208,3 +208,4 @@ Created access hatches to make assembly, maintenance and component replacement e
 I also started a Fusion 360 assembly. In this assembly, I added simplified models of the motor, battery and propeller to check their position, the available space inside the fuselage and the general layout of the aircraft. This is useful before designing the final mounts and internal supports.
 
 The design is still in progress, and several dimensions may change during future research and CAD work. The next steps are to check the centre of gravity, plan the carbon tube locations, design the component mounts and define how all the 3D‑printed sections will connect together.
+**Total time spent: 5 hours**
