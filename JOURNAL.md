@@ -198,9 +198,13 @@ I modified several parts of the aircraft design:
 Improved the shape and proportions of the main wings.
 
 Added the stabilizers using the NACA 0010 profile.
+
 ![Image 1](images/img_naca0010.png)
+
 Modified the nose shape.
+
 ![Image 1](images/img_nezAlper.png)
+
 Reworked the fuselage to improve its overall shape and internal space.
 
 Created access hatches to make assembly, maintenance and component replacement easier.
