@@ -92,16 +92,6 @@ Target static thrust: ≥ 0.5× weight (ideally 0.7×).
 
 Estimated endurance: 10–20 min.
 
-Avionics (phased approach)
-
-Phase 1: 2.4 GHz receiver, 4–6 servos, ESC with BEC, battery alarm.
-
-Phase 2 (after successful flights): GPS + flight controller (position/RTL), full battery telemetry, FPV camera, and optionally an ESP32‑type board for additional sensors.
-
-Build phases
-
-Concept and sizing. 2) CAD (segmented fuselage, wing jigs). 3) Half‑wing prototype. 4) Fuselage printing. 5) Dry assembly and CG check. 6) Ground tests. 7) First flights. 8) Add GPS/camera/sensors.
-
 Regulatory context (France/EU, 2026)
 
 ~2 kg UAV → mandatory operator registration (AlphaTango portal), operator number marked on the aircraft.
@@ -119,7 +109,7 @@ Check no‑fly zones/aerodromes before each flight; RC liability insurance recom
 I already hold an AlphaTango operator licence, so the registration and regulatory side is prepared.
 
 Note: Nothing here is final. All values and choices may change at any time as further research is carried out and as the 3D design and prototyping progress.
-first prototype is a piece of shit
+first prototype:
 ![Image 1](images/img_1.png)
 **Total time spent: 1.5 hours**
 
@@ -185,3 +175,36 @@ This first CAD session helped me see that some dimensions will probably need to 
 
 For now, this is only a first draft. The design will change as I continue the CAD work and learn more about the structure, aerodynamics and printing constraints.
 **Total time spent: 1.75 hours**
+
+# Day 3: CAD progress and research
+
+Today, I spent around 4 hours working on the CAD model and 1 hour doing research about wing profiles, structural reinforcement and component layout.
+![Image 1](images/img_caodrone3.png)
+![Image 1](images/img_caoexp.png)
+For the main wings, I chose the Clark Y airfoil.![Image 1](images/img_clarky.png)
+This airfoil is well suited for a slow to medium speed aircraft because it produces good lift and should help make the drone stable and easier to fly. For the horizontal stabilizers, I chose a NACA 0010 profile. Because it is symmetrical, it is more appropriate for stabilizers and should give more predictable control behavior.
+
+During my research, I found carbon tubes that could be used as internal reinforcement:
+
+Carbon tubes: 5 mm diameter × 250 mm length
+
+Carbon tubes: 9 mm diameter × 500 mm length
+![Image 1](images/img_tubecarbone.png)
+These tubes could be integrated into the wings and fuselage to reinforce the 3D‑printed structure without adding too much weight.
+
+Changes made in CAD
+I modified several parts of the aircraft design:
+
+Improved the shape and proportions of the main wings.
+
+Added the stabilizers using the NACA 0010 profile.
+![Image 1](images/img_naca0010.png)
+Modified the nose shape.
+![Image 1](images/img_nezAlper.png)
+Reworked the fuselage to improve its overall shape and internal space.
+
+Created access hatches to make assembly, maintenance and component replacement easier.
+
+I also started a Fusion 360 assembly. In this assembly, I added simplified models of the motor, battery and propeller to check their position, the available space inside the fuselage and the general layout of the aircraft. This is useful before designing the final mounts and internal supports.
+
+The design is still in progress, and several dimensions may change during future research and CAD work. The next steps are to check the centre of gravity, plan the carbon tube locations, design the component mounts and define how all the 3D‑printed sections will connect together.
