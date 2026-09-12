@@ -181,6 +181,7 @@ For now, this is only a first draft. The design will change as I continue the CA
 Today, I spent around 4 hours working on the CAD model and 1 hour doing research about wing profiles, structural reinforcement and component layout.
 ![Image 1](images/img_caodrone3.png)
 ![Image 1](images/img_caoexp.png)
+You can check the file V2 [just here](3d_folder/alpermain.f3d)
 For the main wings, I chose the Clark Y airfoil.![Image 1](images/img_clarky.png)
 This airfoil is well suited for a slow to medium speed aircraft because it produces good lift and should help make the drone stable and easier to fly. For the horizontal stabilizers, I chose a NACA 0010 profile. Because it is symmetrical, it is more appropriate for stabilizers and should give more predictable control behavior.
 
@@ -210,6 +211,7 @@ Reworked the fuselage to improve its overall shape and internal space.
 Created access hatches to make assembly, maintenance and component replacement easier.
 
 I also started a Fusion 360 assembly. In this assembly, I added simplified models of the motor, battery and propeller to check their position, the available space inside the fuselage and the general layout of the aircraft. This is useful before designing the final mounts and internal supports.
+You can check the file V2 [just here](3d_folder/assembly%20Alper.f3z)
 
 The design is still in progress, and several dimensions may change during future research and CAD work. The next steps are to check the centre of gravity, plan the carbon tube locations, design the component mounts and define how all the 3D‑printed sections will connect together.
 **Total time spent: 5 hours**
