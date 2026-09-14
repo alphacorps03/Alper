@@ -226,4 +226,5 @@ Because the weight calculation would not be reliable with this issue, I decided 
 
 I will need to rebuild the 3D fuselage model and make sure that the walls and internal volume are correctly generated before calculating its weight or preparing the parts for 3D printing.
 ![Image 1](images/img_nosealper2.png)
+I worked on this part of the project on September 13, 2026, but I forgot to publish the journal update at the time.
 **Total time spent: 1.5 hours**
