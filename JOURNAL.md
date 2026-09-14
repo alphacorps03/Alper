@@ -215,3 +215,15 @@ You can check the file V2 [just here](3d_folder/assembly%20Alper.f3z)
 
 The design is still in progress, and several dimensions may change during future research and CAD work. The next steps are to check the centre of gravity, plan the carbon tube locations, design the component mounts and define how all the 3D‑printed sections will connect together.
 **Total time spent: 5 hours**
+
+# Day 4:CAD issue and model restart
+
+Today, I spent about one hour working on the CAD model in Alper. My goal was to calculate the approximate weight of the fuselage before continuing with the rest of the aircraft calculations, especially the centre of gravity and the final motor/battery positioning.
+
+While checking the model, I discovered an important issue. The fuselage walls were designed to be 3 mm thick, and the CAD software considered the body as filled. However, when I inspected it in Fusion 360 and later in OrcaSlicer, the inside of the fuselage appeared visually empty. This could be caused by a mistake in my model or by a software bug.
+
+Because the weight calculation would not be reliable with this issue, I decided not to continue using the current model. The mass, balance and structural calculations are now postponed until the problem is fixed.
+
+I will need to rebuild the 3D fuselage model and make sure that the walls and internal volume are correctly generated before calculating its weight or preparing the parts for 3D printing.
+![Image 1](images/img_nosealper2.png)
+**Total time spent: 1.5 hours**
